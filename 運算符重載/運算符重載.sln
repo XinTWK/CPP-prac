@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "運算符重載", "運算符重載\運算符重載.vcxproj", "{751CA379-9EDF-4434-9CE8-74A0184279F4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "強化訓練-字符串類封裝", "強化訓練\強化訓練.vcxproj", "{FB5D8D22-BF29-4656-AE15-9E3EFB3BFB5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{751CA379-9EDF-4434-9CE8-74A0184279F4}.Debug|x64.ActiveCfg = Debug|x64
+		{751CA379-9EDF-4434-9CE8-74A0184279F4}.Debug|x64.Build.0 = Debug|x64
+		{751CA379-9EDF-4434-9CE8-74A0184279F4}.Debug|x86.ActiveCfg = Debug|Win32
+		{751CA379-9EDF-4434-9CE8-74A0184279F4}.Debug|x86.Build.0 = Debug|Win32
+		{751CA379-9EDF-4434-9CE8-74A0184279F4}.Release|x64.ActiveCfg = Release|x64
+		{751CA379-9EDF-4434-9CE8-74A0184279F4}.Release|x64.Build.0 = Release|x64
+		{751CA379-9EDF-4434-9CE8-74A0184279F4}.Release|x86.ActiveCfg = Release|Win32
+		{751CA379-9EDF-4434-9CE8-74A0184279F4}.Release|x86.Build.0 = Release|Win32
+		{FB5D8D22-BF29-4656-AE15-9E3EFB3BFB5E}.Debug|x64.ActiveCfg = Debug|x64
+		{FB5D8D22-BF29-4656-AE15-9E3EFB3BFB5E}.Debug|x64.Build.0 = Debug|x64
+		{FB5D8D22-BF29-4656-AE15-9E3EFB3BFB5E}.Debug|x86.ActiveCfg = Debug|Win32
+		{FB5D8D22-BF29-4656-AE15-9E3EFB3BFB5E}.Debug|x86.Build.0 = Debug|Win32
+		{FB5D8D22-BF29-4656-AE15-9E3EFB3BFB5E}.Release|x64.ActiveCfg = Release|x64
+		{FB5D8D22-BF29-4656-AE15-9E3EFB3BFB5E}.Release|x64.Build.0 = Release|x64
+		{FB5D8D22-BF29-4656-AE15-9E3EFB3BFB5E}.Release|x86.ActiveCfg = Release|Win32
+		{FB5D8D22-BF29-4656-AE15-9E3EFB3BFB5E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
