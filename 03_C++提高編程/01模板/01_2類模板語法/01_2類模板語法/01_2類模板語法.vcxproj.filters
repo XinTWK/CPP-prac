@@ -18,5 +18,20 @@
     <ClCompile Include="01 類模板語法.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
+    <ClCompile Include="02 類模板與函數模板區別.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="03 類模板中成員函數創建時機.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="04 類模板對象做函數參數.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="05 類模板與繼承.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="06 類模板成員函數類外實現.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
