@@ -49,16 +49,36 @@ int main()
 			wm.Add_Emp();
 			break;
 		case 2: // 顯示員工
+			wm.Show_Emp();
+			
 			break;
 		case 3: // 刪除員工
-			break;
+		//// 測試
+		//{
+		//	int ret = wm.IsExist(5);
+		//	if (ret != -1)
+		//	{
+		//		cout << "員工存在" << endl;
+		//	}
+		//	else
+		//	{
+		//		cout << "員工不存在" << endl;
+		//	}
+		//	break;
+		//}
+			wm.Del_Emp();
+		break;
 		case 4: // 修改員工
+			wm.Mod_Emp();
 			break;
 		case 5: // 查找員工
+			wm.Find_Emp();
 			break;
 		case 6: // 排序員工
+			wm.Sort_Emp();
 			break;
 		case 7: // 清空資料
+			wm.Clean_File();
 			break;
 		default:
 			system("cls"); // 清除畫面
