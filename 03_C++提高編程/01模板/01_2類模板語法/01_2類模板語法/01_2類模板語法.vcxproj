@@ -161,7 +161,21 @@
     <ClCompile Include="05 類模板與繼承.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="06 類模板成員函數類外實現.cpp" />
+    <ClCompile Include="06 類模板成員函數類外實現.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="07 類模板分文件編寫.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="08 類模板與友元.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="09 類模板案例-陣列類封裝.cpp" />
+    <ClCompile Include="person.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyArray.hpp" />
+    <ClInclude Include="person.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

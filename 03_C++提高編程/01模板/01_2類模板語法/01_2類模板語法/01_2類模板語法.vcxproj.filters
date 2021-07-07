@@ -33,5 +33,25 @@
     <ClCompile Include="06 類模板成員函數類外實現.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
+    <ClCompile Include="07 類模板分文件編寫.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="person.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="08 類模板與友元.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="09 類模板案例-陣列類封裝.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="person.hpp">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="MyArray.hpp">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
