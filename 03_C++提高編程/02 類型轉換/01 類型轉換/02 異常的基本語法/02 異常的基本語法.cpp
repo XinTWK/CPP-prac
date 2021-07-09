@@ -1,6 +1,8 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include<iostream>
 using namespace std;
+#include<memory>
+
 // 異常的基本語法
 // 異常的三個關鍵字 try caych theow
 
@@ -13,7 +15,19 @@ public:
 	{
 		cout << "我自己的異常" << endl;
 	}
+	};
+class Person
+{
+public:
+	Person()
+	{
+		cout << "Person的構造調用" << endl;
+	}
 
+	~Person()
+	{
+		cout << "Person的析構調用" << endl;
+	}
 };
 
 int myDivision(int a,int b)
@@ -25,6 +39,16 @@ int myDivision(int a,int b)
 		//throw 1;    // 拋出一個int異常
 		//throw 3.14; // 拋出一個double異常
 		//throw 'a';  // 拋出一個char異常
+
+		// 棧解旋: 從try開始起, 到throw拋出異常前, 棧上的數據會自動釋放, 釋放的順序和創建的順序相反
+		Person p1;
+		Person p2;
+
+		auto_ptr<Person> p3(new Person); // C++98標準
+
+		// C++11標準
+		unique_ptr<Person> p4(new Person); // #include <memory>
+
 		throw myException();  // 拋出一個 myException匿名的異常對象
 	}
 	return a / b;
