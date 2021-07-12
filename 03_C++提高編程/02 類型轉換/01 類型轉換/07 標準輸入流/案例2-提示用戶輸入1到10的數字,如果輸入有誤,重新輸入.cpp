@@ -20,7 +20,12 @@ void test01()
 		// 1. 重置標誌位
 		cin.clear();
 		// 2. 刷新緩衝區
-		cin.ignore(numeric_limits<std::streamsize>::max(), '/n');
+		//cin.sync(); // vs2015以上不能用了, 需要手動取出緩衝區的內容, 可以使用cin.getline取走 
+		              //或是 cin.ignore
+		char buf[1024] = { 0 };
+		cin.getline(buf, 1024);
+		
+		//cin.ignore(1024, '\n');
 
 		//cout << "標誌位: " << cin.fail() << endl; // 0 正常  1 異常
 
