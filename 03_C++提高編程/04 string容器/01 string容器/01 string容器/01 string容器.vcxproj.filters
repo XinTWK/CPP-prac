@@ -24,5 +24,20 @@
     <ClCompile Include="03 string容器_字串拼接.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
+    <ClCompile Include="04 string容器_查找和替換.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="05 string容器_字串比較.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="06 string容器_字符存取.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="07 string容器_插入和刪除.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="08 string容器_子串.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
